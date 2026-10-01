@@ -25,7 +25,7 @@ action, which:
 1. Reads the example's `algorithm_config.yml` and `Containerfile`.
 2. Builds and publishes the container image to the repository's GHCR.
 3. Generates the CWL workflow, writes it to `cwl_workflows/` by default and commits it back to the working branch.
-4. Registers the process with the MAAP OGC processes endpoint.
+4. Optionally registers the process with the MAAP OGC processes endpoint (MAAP token required)
 
 # Examples
 
