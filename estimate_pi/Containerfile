@@ -1,0 +1,5 @@
+FROM gcc:14
+
+COPY ./estimate_pi/estimate_pi.f90 /app/estimate_pi.f90
+
+RUN gfortran -O2 -o /usr/local/bin/estimate_pi /app/estimate_pi.f90

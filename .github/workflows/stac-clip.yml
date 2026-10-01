@@ -1,0 +1,17 @@
+name: stac-clip
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'stac_clip/**'
+      - '.github/workflows/stac-clip.yml'
+      - '.github/workflows/generate-app-pack.yml'
+
+jobs:
+  build:
+    uses: ./.github/workflows/generate-app-pack.yml
+    with:
+      example-dir: stac_clip
+      register-endpoint: https://api.uat.maap-project.org/api/ogc/processes
+    secrets: inherit

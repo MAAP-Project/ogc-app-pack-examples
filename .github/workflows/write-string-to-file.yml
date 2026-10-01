@@ -1,0 +1,17 @@
+name: write-string-to-file
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'write_string_to_file/**'
+      - '.github/workflows/write-string-to-file.yml'
+      - '.github/workflows/generate-app-pack.yml'
+
+jobs:
+  build:
+    uses: ./.github/workflows/generate-app-pack.yml
+    with:
+      example-dir: write_string_to_file
+      register-endpoint: https://api.uat.maap-project.org/api/ogc/processes
+    secrets: inherit

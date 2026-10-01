@@ -1,0 +1,37 @@
+algorithm_description: Reads a STAC Catalog, clips the requested raster asset to a bounding box, and emits a new STAC Catalog describing the clipped output.
+algorithm_name: stac-clip
+algorithm_version: main
+keywords: ogc, stac, raster
+code_repository: https://github.com/marjo-luc/ogc-app-pack-examples.git
+citation: https://github.com/marjo-luc/ogc-app-pack-examples.git
+author: mlucas
+contributor: mlucas
+license: https://raw.githubusercontent.com/marjo-luc/ogc-app-pack-examples/refs/heads/main/LICENSE
+release_notes: None
+run_command: run.py
+ram_min: 5 # mebibytes
+cores_min: 1
+outdir_max: 10 # mebibytes
+
+inputs:
+  - name: input_catalog
+    doc: Path to the STAC Catalog directory
+    label: Input STAC Catalog
+    type: Directory
+  - name: asset_name
+    doc: Name of the raster asset to clip
+    label: Asset name
+    type: string
+  - name: bbox
+    doc: Clip bounding box as 'MINX MINY MAXX MAXY' in EPSG:4326
+    label: Bounding box
+    type: string
+  - name: output_file
+    doc: Name of the output COG
+    label: Output filename
+    type: string?
+    default: clipped.tif
+
+outputs:
+  - name: out
+    type: Directory
