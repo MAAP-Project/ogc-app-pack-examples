@@ -12,7 +12,7 @@ on:
         type: string
     secrets:
       MAAP_TOKEN:
-        required: true
+        required: false
 
 concurrency:
   # Serialize runs across all callers: the generator commits CWL back to
