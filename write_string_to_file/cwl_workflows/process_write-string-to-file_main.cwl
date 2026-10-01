@@ -31,7 +31,7 @@ $graph:
   id: main
   requirements:
     DockerRequirement:
-      dockerPull: ghcr.io/marjo-luc/write-string-to-file:main
+      dockerPull: ghcr.io/maap-project/write-string-to-file:main
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
@@ -65,8 +65,8 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/marjo-luc/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/marjo-luc/ogc-app-pack-examples.git
-s:commitHash: aacdb5faed36d5ff327bd93507d57e151501e492
-s:dateCreated: 2026-07-20
+s:commitHash: 927a00cd449da2429dc885635521a877dae05dbb
+s:dateCreated: 2026-10-01
 s:license: https://raw.githubusercontent.com/marjo-luc/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
 s:version: main
