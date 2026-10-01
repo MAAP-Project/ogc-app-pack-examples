@@ -32,7 +32,7 @@ $graph:
   id: main
   requirements:
     DockerRequirement:
-      dockerPull: ghcr.io/marjo-luc/estimate-pi:main
+      dockerPull: ghcr.io/maap-project/estimate-pi:main
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
@@ -66,8 +66,8 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/marjo-luc/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/marjo-luc/ogc-app-pack-examples.git
-s:commitHash: d22d28ee81b22eb62c590c32c2e814a3ecf8e2db
-s:dateCreated: 2026-07-20
+s:commitHash: fd4062d8778b24ccc1120b1ad2a52da64ba75d9c
+s:dateCreated: 2026-10-01
 s:license: https://raw.githubusercontent.com/marjo-luc/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
 s:version: main
