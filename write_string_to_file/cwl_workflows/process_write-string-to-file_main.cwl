@@ -32,6 +32,7 @@ $graph:
   requirements:
     DockerRequirement:
       dockerPull: ghcr.io/maap-project/write-string-to-file:main
+      dockerPull: ghcr.io/maap-project/write-string-to-file:main
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
