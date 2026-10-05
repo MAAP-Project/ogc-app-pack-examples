@@ -30,7 +30,7 @@ $graph:
   id: main
   requirements:
     DockerRequirement:
-      dockerPull: ghcr.io/marjo-luc/color-to-greyscale:main
+      dockerPull: ghcr.io/maap-project/color-to-greyscale:main
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
@@ -61,11 +61,11 @@ s:author:
 s:contributor:
 - class: s:Person
   s:name: mlucas
-s:citation: https://github.com/marjo-luc/ogc-app-pack-examples.git
-s:codeRepository: https://github.com/marjo-luc/ogc-app-pack-examples.git
+s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
+s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:commitHash: 01435bd7bd5266fea396da254d921d7fac04f0b5
 s:dateCreated: 2026-07-30
-s:license: https://raw.githubusercontent.com/marjo-luc/ogc-app-pack-examples/refs/heads/main/LICENSE
+s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
 s:version: main
 s:releaseNotes: None
