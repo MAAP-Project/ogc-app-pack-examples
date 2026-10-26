@@ -41,7 +41,7 @@ $graph:
   id: main
   requirements:
     DockerRequirement:
-      dockerPull: ghcr.io/marjo-luc/stac-clip:main
+      dockerPull: ghcr.io/maap-project/stac-clip:main
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
@@ -84,8 +84,8 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/marjo-luc/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/marjo-luc/ogc-app-pack-examples.git
-s:commitHash: 5fb00aa4817a01c0eb79ad82d2b8c5245d805f4d
-s:dateCreated: 2026-07-20
+s:commitHash: 07be38ce3dceabac343b1bc79676403daba13e81
+s:dateCreated: 2026-10-26
 s:license: https://raw.githubusercontent.com/marjo-luc/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
 s:version: main
