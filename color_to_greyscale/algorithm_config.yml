@@ -21,7 +21,7 @@ inputs:
   - name: output_file
     doc: Name of the output greyscale image
     label: Output filename
-    type: string?
+    type: string
     default: greyscale.tif
 
 outputs:
