@@ -14,10 +14,6 @@ $graph:
       label: Output filename
       type: string?
       default: greyscale.tif
-    test:
-      doc: test
-      label: test
-      type: string?
   outputs:
     out:
       type: Directory
@@ -28,7 +24,6 @@ $graph:
       in:
         input_image: input_image
         output_file: output_file
-        test: test
       out:
       - outputs_result
 - class: CommandLineTool
@@ -55,11 +50,6 @@ $graph:
         position: 2
         prefix: --output_file
       default: greyscale.tif
-    test:
-      type: string?
-      inputBinding:
-        position: 3
-        prefix: --test
   outputs:
     outputs_result:
       outputBinding:
@@ -73,8 +63,8 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-s:commitHash: 65bab3474cac4b3e9c255485e4c163eec8e0639e
-s:dateCreated: 2026-10-23
+s:commitHash: 8bcfe3d1b54b3ec8cb75754fcebadd9e550b2523
+s:dateCreated: 2026-10-26
 s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
 s:version: main
