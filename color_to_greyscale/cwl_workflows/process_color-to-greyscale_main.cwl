@@ -17,7 +17,7 @@ $graph:
     test:
       doc: test
       label: test
-      type: string?
+      type: int?
   outputs:
     out:
       type: Directory
