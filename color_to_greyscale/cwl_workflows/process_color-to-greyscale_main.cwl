@@ -17,7 +17,7 @@ $graph:
     test:
       doc: test
       label: test
-      type: string?
+      type: int?
   outputs:
     out:
       type: Directory
@@ -56,7 +56,7 @@ $graph:
         prefix: --output_file
       default: greyscale.tif
     test:
-      type: string?
+      type: int?
       inputBinding:
         position: 3
         prefix: --test
@@ -73,7 +73,7 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-s:commitHash: 5de3aa91a7b26cb74f764d7cf683bfa2399b1216
+s:commitHash: b7129d4338a2d249b0833d3bb5198dbca02131bf
 s:dateCreated: 2026-10-26
 s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
