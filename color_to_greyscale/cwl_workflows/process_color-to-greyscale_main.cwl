@@ -17,7 +17,7 @@ $graph:
     test:
       doc: test
       label: test
-      type: int?
+      type: string?
   outputs:
     out:
       type: Directory
@@ -73,7 +73,7 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-s:commitHash: a59e0f39d009f98c6a72bf4416f1ea1167bcf4ce
+s:commitHash: 5de3aa91a7b26cb74f764d7cf683bfa2399b1216
 s:dateCreated: 2026-10-26
 s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
