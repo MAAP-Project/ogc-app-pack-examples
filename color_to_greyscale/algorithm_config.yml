@@ -23,10 +23,6 @@ inputs:
     label: Output filename
     type: string?
     default: greyscale.tif
-  - name: test
-    doc: test
-    label: test
-    type: string?
 
 outputs:
   - name: out
