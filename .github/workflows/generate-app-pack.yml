@@ -38,7 +38,7 @@ jobs:
           # Per-example inputs derived from the example directory
           algorithm-configuration-path: ${{ inputs.example-dir }}/algorithm_config.yml
           dockerfile-path: ${{ inputs.example-dir }}/Containerfile
-          deploy-app-pack: false
+          deploy-app-pack: true
           cwl-workflow-dir: ${{ inputs.example-dir }}/cwl_workflows
           app-pack-register-endpoint: ${{ inputs.register-endpoint }}
         env:
