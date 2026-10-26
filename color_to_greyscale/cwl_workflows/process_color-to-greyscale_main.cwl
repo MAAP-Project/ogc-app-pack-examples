@@ -12,7 +12,7 @@ $graph:
     output_file:
       doc: Name of the output greyscale image
       label: Output filename
-      type: string?
+      type: string
       default: greyscale.tif
   outputs:
     out:
@@ -45,7 +45,7 @@ $graph:
         position: 1
         prefix: --input_image
     output_file:
-      type: string?
+      type: string
       inputBinding:
         position: 2
         prefix: --output_file
@@ -63,7 +63,7 @@ s:contributor:
   s:name: mlucas
 s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-s:commitHash: 8bcfe3d1b54b3ec8cb75754fcebadd9e550b2523
+s:commitHash: 4054eddb027b85beb5ec199316bd2ae2df78e399
 s:dateCreated: 2026-10-26
 s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
