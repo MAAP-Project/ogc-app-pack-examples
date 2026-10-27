@@ -59,13 +59,13 @@ $graph:
       type: Directory
 s:author:
 - class: s:Person
-  s:name: mlucas
+  s:name: Marjorie Lucas
 s:contributor:
 - class: s:Person
-  s:name: mlucas
+  s:name: Marjorie Lucas
 s:citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 s:codeRepository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-s:commitHash: 0ec3a63a4d0bb997dfddd78472ac705569aa0be6
+s:commitHash: d3d3dd08d788e37b99a769464d9fd496a69fdc31
 s:dateCreated: 2026-10-27
 s:license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 s:softwareVersion: 1.0.0
