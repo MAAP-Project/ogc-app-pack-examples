@@ -4,8 +4,8 @@ algorithm_version: main
 keywords: ogc
 code_repository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
 citation: https://github.com/MAAP-Project/ogc-app-pack-examples.git
-author: mlucas
-contributor: mlucas
+author: Marjorie Lucas
+contributor: Marjorie Lucas
 license: https://raw.githubusercontent.com/MAAP-Project/ogc-app-pack-examples/refs/heads/main/LICENSE
 release_notes: None
 run_command: write_string_to_file.py
