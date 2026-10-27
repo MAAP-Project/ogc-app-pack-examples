@@ -1,5 +1,5 @@
 algorithm_description: Writes an input string to a text file.
-algorithm_name: write-string-to-file
+algorithm_name: write-string-to-file-mlucas
 algorithm_version: main
 keywords: ogc
 code_repository: https://github.com/MAAP-Project/ogc-app-pack-examples.git
